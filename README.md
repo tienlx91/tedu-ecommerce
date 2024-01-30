@@ -15,9 +15,9 @@
 - Set Startup Project: TeduEcommerce.Migrator
 - Open Package Manager Console windows
 - Set Default Project TeduEcommerce.EntityFrameworkCore
-- Run command: Update-Database -Context TeduEcommerceDbContext
-- Install global tool: dotnet tool install -g Volo.Abp.Cli
-- Run command on folder: TeduEcommerce.AuthServer and run abp install-libs
+- Run command: `Update-Database -Context TeduEcommerceDbContext`
+- Install global tool: `dotnet tool install -g Volo.Abp.Cli`
+- Run command on folder: TeduEcommerce.AuthServer and run `abp install-libs`
 - Set startup project: TeduEcommerce.Admin.HttpApi.Host or set multiple startup projects
 
 ## Deployment to CentOS and NGINX (Example: AuthServer)
